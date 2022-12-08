@@ -51,25 +51,25 @@ Clear();
 // 4 Принимаем одно число N, а на выходе показывает все целые числа в промежутки от -N до N
 // 4 : -4,-3,-2,-1,-0,-1,-2,-3,-4
 
-// Write("Введите число: ");
-// int num = Convert.ToInt32(ReadLine()!);
-// int num1 = -num;
+Write("Введите число: ");
+int num = Convert.ToInt32(ReadLine()!);
+int num1 = -num;
 
-// while(num1 <= num)
-// {
-//     Write($"{num1},");
-//     num1++;
-// }
+while(num1 <= num)
+{
+    Write($"{num1},");
+    num1++;
+}
 
 // ======================= // =======================
 
 
 // 5 Программа принимает 3-х значние чсло и на выход показывает последнюю цифру данного числа
 
-// Write("Укажите число: ");
-// int numb = Convert.ToInt32(ReadLine()!);
+Write("Укажите число: ");
+int numb = Convert.ToInt32(ReadLine()!);
 
-// int a = numb % 10;
-// WriteLine(a);
+int a = numb % 10;
+WriteLine(a);
 
 
