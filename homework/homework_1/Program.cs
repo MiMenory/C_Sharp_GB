@@ -85,3 +85,15 @@ Clear();
 //     }
 //     max++;
 // }
+
+
+// Альтернативный способ 
+
+// Write("Введите число: ");
+// int num = Convert.ToInt32(ReadLine()!);
+
+// for (int i = 1; i <= num; i++)
+// {
+//     if (i % 2 == 0)
+//     WriteLine($"{i} ");
+// }
