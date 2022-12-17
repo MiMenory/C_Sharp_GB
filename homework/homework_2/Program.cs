@@ -8,10 +8,10 @@ Clear();
 
 
 
-// Write("Введите 3-х значное число: ");
-// int num = Convert.ToInt32(ReadLine()!);
-// int numb = num/10%10;
-// WriteLine($"Число получили: {num}, центральная цифра числа {numb}");
+Write("Введите 3-х значное число: ");
+int num = Convert.ToInt32(ReadLine()!);
+int numb = num/10%10;
+WriteLine($"Число получили: {num}, центральная цифра числа {numb}");
 
 
 // ======================= // =======================
@@ -22,17 +22,17 @@ Clear();
 // 32679 -> 6
 
 
-// Write("Введите число: ");
-// string num = Convert.ToString(ReadLine()!);
+Write("Введите число: ");
+string num = Convert.ToString(ReadLine()!);
 
-// if (num.Length >= 3)
-// {
-//     WriteLine($"3-я цифра {num[2]}");
-// }
-// else
-// {
-//     WriteLine("3-ей цифры нет");
-// }
+if (num.Length >= 3)
+{
+    WriteLine($"3-я цифра {num[2]}");
+}
+else
+{
+    WriteLine("3-ей цифры нет");
+}
 
 
 // ======================= // =======================
@@ -44,18 +44,18 @@ Clear();
 // 1 -> нет
 
 
-// Write("Введите день недели: ");
-// int num = Convert.ToInt32(ReadLine()!);
+Write("Введите день недели: ");
+int num = Convert.ToInt32(ReadLine()!);
 
-// if (num < 1 | num >= 8)
-// {
-//     WriteLine("Такого дня недели не существует!");
-// }
-// if (num >= 1 & num <= 5)
-// {
-//     WriteLine("Будни");
-// }
-// if (num >= 6 & num <=7)
-// {
-//     WriteLine("Выходные");
-// }
+if (num < 1 | num >= 8)
+{
+    WriteLine("Такого дня недели не существует!");
+}
+if (num >= 1 & num <= 5)
+{
+    WriteLine("Будни");
+}
+if (num >= 6 & num <=7)
+{
+    WriteLine("Выходные");
+}
