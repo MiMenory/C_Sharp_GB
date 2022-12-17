@@ -6,20 +6,20 @@ Clear();
 // и показывает наибольшцю цифру этого числа.
 
 
-// Random rnd = new Random();
-// int rand = rnd.Next(10,99);
-// WriteLine(rand);
-// int a = rand%10;
-// int b = rand/10;
+Random rnd = new Random();
+int rand = rnd.Next(10,99);
+WriteLine(rand);
+int a = rand%10;
+int b = rand/10;
 
-// if (a > b)
-// {
-//     WriteLine($"Наибольшее число {a}");
-// }
-// else
-// {
-//     WriteLine($"Наибольшее число {b}");
-// }
+if (a > b)
+{
+    WriteLine($"Наибольшее число {a}");
+}
+else
+{
+    WriteLine($"Наибольшее число {b}");
+}
 
 
 // =========================== // ===========================
@@ -32,11 +32,11 @@ Clear();
 // 918 -> 98
 
 
-// int a = new Random().Next(100, 999);
-// int a1 = a%10;
-// int a3 = a/100;
+int a = new Random().Next(100, 999);
+int a1 = a%10;
+int a3 = a/100;
 
-// WriteLine($"Имеем {a}, удаляем центр, получаем {a3}{a1}");
+WriteLine($"Имеем {a}, удаляем центр, получаем {a3}{a1}");
 
 
 
@@ -49,16 +49,16 @@ Clear();
 // 16, 4 -> кратно
 
 
-// int a = new Random().Next(1,11);
-// int b = new Random().Next(10,99);
+int a = new Random().Next(1,11);
+int b = new Random().Next(10,99);
 
 
-// if (b * b == a)
-// {
-//     WriteLine($"Число {b} кратно числу {a}");
-// }
-// else
-// {
-//     WriteLine($"Число {b} не кратно числу {a}. Остаток от деления: {a%b}");
-// }
+if (b * b == a)
+{
+    WriteLine($"Число {b} кратно числу {a}");
+}
+else
+{
+    WriteLine($"Число {b} не кратно числу {a}. Остаток от деления: {a%b}");
+}
 
