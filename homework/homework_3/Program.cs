@@ -9,28 +9,28 @@ Clear();
 // 12821 -> да
 // 23432 -> да
 
-// Write("Введиче 5 цифр: ");
-// string str = Convert.ToString(ReadLine()!);
+Write("Введиче 5 цифр: ");
+string str = Convert.ToString(ReadLine()!);
 
-// if (str.Length < 5 | str.Length > 5)
-// {
-//     WriteLine("Ошибка! Введите 5 цифр");
-//     return;
-// }
-// if (str[0] == str[4])
-// {
-//     if (str[1] == str[3])
-//     {
-//         if (str[2] == str[2])
-//         {
-//             WriteLine("Полиндром");
-//         }
-//     }
-// }
-// else
-// {
-//     WriteLine("Не полиндром");
-// }
+if (str.Length < 5 | str.Length > 5)
+{
+    WriteLine("Ошибка! Введите 5 цифр");
+    return;
+}
+if (str[0] == str[4])
+{
+    if (str[1] == str[3])
+    {
+        if (str[2] == str[2])
+        {
+            WriteLine("Полиндром");
+        }
+    }
+}
+else
+{
+    WriteLine("Не полиндром");
+}
 
 
 // ========================= // =========================
@@ -42,23 +42,23 @@ Clear();
 // A (7,-5, 0); B (1,-1,9) -> 11.53
 
 
-// Write("Введите координату X1: ");
-// int x1 = Convert.ToInt32(ReadLine()!);
-// Write("Введите координату Y1: ");
-// int y1 = Convert.ToInt32(ReadLine()!);
-// Write("Введите координату Z1: ");
-// int z1 = Convert.ToInt32(ReadLine()!);
+Write("Введите координату X1: ");
+int x1 = Convert.ToInt32(ReadLine()!);
+Write("Введите координату Y1: ");
+int y1 = Convert.ToInt32(ReadLine()!);
+Write("Введите координату Z1: ");
+int z1 = Convert.ToInt32(ReadLine()!);
 
-// Write("Введите координату X2: ");
-// int x2 = Convert.ToInt32(ReadLine()!);
-// Write("Введите координату Y2: ");
-// int y2 = Convert.ToInt32(ReadLine()!);
-// Write("Введите координату Z2: ");
-// int z2 = Convert.ToInt32(ReadLine()!);
+Write("Введите координату X2: ");
+int x2 = Convert.ToInt32(ReadLine()!);
+Write("Введите координату Y2: ");
+int y2 = Convert.ToInt32(ReadLine()!);
+Write("Введите координату Z2: ");
+int z2 = Convert.ToInt32(ReadLine()!);
 
-// double total = Math.Sqrt(Math.Pow(x1 - x2,2) + Math.Pow(y1 - y2,2) + Math.Pow(z1 - z2,2));
+double total = Math.Sqrt(Math.Pow(x1 - x2,2) + Math.Pow(y1 - y2,2) + Math.Pow(z1 - z2,2));
 
-// WriteLine($"{Math.Round(total,2)}");
+WriteLine($"{Math.Round(total,2)}");
 
 // ========================= // =========================
 
@@ -69,13 +69,13 @@ Clear();
 // 5 -> 1, 8, 27, 64, 125
 
 
-// Write("Введите одну цифру а мы покажем таблицу кубов числа: ");
-// int num = Convert.ToInt32(ReadLine()!);
+Write("Введите одну цифру а мы покажем таблицу кубов числа: ");
+int num = Convert.ToInt32(ReadLine()!);
 
-// for (int i = 1; i < num+1; i++)
-// {
-//     Write($"{Math.Pow(i,3)}, ");
-// }
+for (int i = 1; i < num+1; i++)
+{
+    Write($"{Math.Pow(i,3)}, ");
+}
 
 
 
