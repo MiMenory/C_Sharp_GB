@@ -64,7 +64,7 @@ int num = Convert.ToInt32(ReadLine()!);
 
 if (num == 1)
 {
-    WriteLine("'X: 1,2,3,4,5' 'Y: 1,2,3,4,5' ");
+    WriteLine("'X: +' 'Y: +' ");
 }
 
 
