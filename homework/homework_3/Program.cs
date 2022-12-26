@@ -33,6 +33,29 @@ else
 }
 
 
+// То же самое, только не через строку
+
+Write("Введите 5 чисел: ");
+int str = Convert.ToInt32(ReadLine()!);
+int last = str%10;
+int first = str/100/100;
+int a2 = str%100/10;
+int a3 = str/100%100/10;
+
+if (last == first)
+{
+    if (a2 == a3)
+    {
+        WriteLine("Полиндром");
+    }
+}
+else
+    {
+        WriteLine("Не полиндром");
+    }
+
+
+
 // ========================= // =========================
 
 
@@ -42,23 +65,23 @@ else
 // A (7,-5, 0); B (1,-1,9) -> 11.53
 
 
-Write("Введите координату X1: ");
-int x1 = Convert.ToInt32(ReadLine()!);
-Write("Введите координату Y1: ");
-int y1 = Convert.ToInt32(ReadLine()!);
-Write("Введите координату Z1: ");
-int z1 = Convert.ToInt32(ReadLine()!);
+// Write("Введите координату X1: ");
+// int x1 = Convert.ToInt32(ReadLine()!);
+// Write("Введите координату Y1: ");
+// int y1 = Convert.ToInt32(ReadLine()!);
+// Write("Введите координату Z1: ");
+// int z1 = Convert.ToInt32(ReadLine()!);
 
-Write("Введите координату X2: ");
-int x2 = Convert.ToInt32(ReadLine()!);
-Write("Введите координату Y2: ");
-int y2 = Convert.ToInt32(ReadLine()!);
-Write("Введите координату Z2: ");
-int z2 = Convert.ToInt32(ReadLine()!);
+// Write("Введите координату X2: ");
+// int x2 = Convert.ToInt32(ReadLine()!);
+// Write("Введите координату Y2: ");
+// int y2 = Convert.ToInt32(ReadLine()!);
+// Write("Введите координату Z2: ");
+// int z2 = Convert.ToInt32(ReadLine()!);
 
-double total = Math.Sqrt(Math.Pow(x1 - x2,2) + Math.Pow(y1 - y2,2) + Math.Pow(z1 - z2,2));
+// double total = Math.Sqrt(Math.Pow(x1 - x2,2) + Math.Pow(y1 - y2,2) + Math.Pow(z1 - z2,2));
 
-WriteLine($"{Math.Round(total,2)}");
+// WriteLine($"{Math.Round(total,2)}");
 
 // ========================= // =========================
 
@@ -69,13 +92,13 @@ WriteLine($"{Math.Round(total,2)}");
 // 5 -> 1, 8, 27, 64, 125
 
 
-Write("Введите одну цифру а мы покажем таблицу кубов числа: ");
-int num = Convert.ToInt32(ReadLine()!);
+// Write("Введите одну цифру а мы покажем таблицу кубов числа: ");
+// int num = Convert.ToInt32(ReadLine()!);
 
-for (int i = 1; i < num+1; i++)
-{
-    Write($"{Math.Pow(i,3)}, ");
-}
+// for (int i = 1; i < num+1; i++)
+// {
+//     Write($"{Math.Pow(i,3)}, ");
+// }
 
 
 
