@@ -23,17 +23,17 @@ WriteLine($"Число получили: {num}, центральная цифр�
 
 
 Write("Введите число: ");
-string num = Convert.ToString(ReadLine()!);
-
-if (num.Length >= 3)
+int num = Convert.ToInt32(ReadLine()!);
+if (num < 100)
 {
-    WriteLine($"3-я цифра {num[2]}");
-}
-else
-{
-    WriteLine("3-ей цифры нет");
+    WriteLine("Число меньше 100");
 }
 
+while(num > 1000)
+{
+    num = num/10;
+}
+WriteLine($"{num%10}");
 
 // ======================= // =======================
 
